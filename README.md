@@ -1,27 +1,41 @@
-<div align="center">
-
 # 🌐 M. Ilham Wahyudi — Engineering Portfolio
 ### Fullstack Web Developer & Data Specialist
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-ilham--portofolio-blue?style=for-the-badge&logo=vercel&logoColor=white)](https://ilham-portofolio-black.vercel.app/)
-[![Next.js](https://img.shields.io/badge/Next.js%2015.1-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React%2019-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript%205-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%203.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Google Gemini API](https://img.shields.io/badge/Google%20Gemini-8E75C4?style=for-the-badge&logo=googlebard&logoColor=white)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-
 <p align="center">
-  Modern, high-craft engineering portfolio and interactive case study platform showcasing real-world software architecture, AI solutions, data pipelines, and verified intellectual property credentials.
+  <a href="https://ilham-portofolio-black.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-ilham--portofolio-blue?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js%2015.1-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  </a>
+  <a href="https://react.dev/">
+    <img src="https://img.shields.io/badge/React%2019-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/TypeScript%205-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/Tailwind%203.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </a>
+  <a href="https://ai.google.dev/">
+    <img src="https://img.shields.io/badge/Google%20Gemini-8E75C4?style=for-the-badge&logo=googlebard&logoColor=white" alt="Google Gemini" />
+  </a>
 </p>
 
-[**Explore Live Demo »**](https://ilham-portofolio-black.vercel.app/) · [Report Bug](https://github.com/ilhamwahyudi03/ilham-portfolio/issues) · [Request Feature](https://github.com/ilhamwahyudi03/ilham-portfolio/issues)
+<p align="center">
+  <b>Modern, high-craft engineering portfolio and interactive case study platform showcasing real-world software architecture, AI solutions, data pipelines, and verified intellectual property credentials.</b>
+</p>
 
-</div>
+<p align="center">
+  <a href="https://ilham-portofolio-black.vercel.app/"><b>🚀 Jelajahi Live Demo</b></a> •
+  <a href="https://github.com/ilhamwahyudi03/ilham-portfolio/issues">Laporkan Masalah</a> •
+  <a href="mailto:ilhamwahyudi4625@gmail.com">Hubungi Pengembang</a>
+</p>
 
 ---
 
 ## 📑 Daftar Isi (Table of Contents)
+
 - [🌟 Ikhtisar Proyek (Project Overview)](#-ikhtisar-proyek-project-overview)
 - [✨ Fitur Utama (Key Features)](#-fitur-utama-key-features)
 - [🛠️ Arsitektur & Tech Stack](#️-arsitektur--tech-stack)
@@ -45,7 +59,7 @@ Platform ini memadukan ekosistem **Next.js 15 App Router**, **Framer Motion 12**
 
 ## ✨ Fitur Utama (Key Features)
 
-### 1. 🤖 Interactive AI Portfolio Assistant (Google Gemini 2.5 / 1.5)
+### 1. 🤖 Interactive AI Portfolio Assistant (Google Gemini)
 - Asisten AI chatbot cerdas terintegrasi langsung di web (`/api/chat`).
 - Di-grounding secara akurat pada CV, riwayat pendidikan, skripsi LSTM, magang industri, dan portofolio teknis Ilham Wahyudi.
 - Menjawab pertanyaan seputar tech stack, alur proyek, dan ketersediaan kerja dalam dwibahasa (Indonesia & Inggris).
@@ -92,7 +106,7 @@ Platform ini memadukan ekosistem **Next.js 15 App Router**, **Framer Motion 12**
 
 Portofolio ini menerapkan prinsip arsitektur **Mobile Layout Reflow** (bukan sekadar desktop yang diperkecil):
 
-```
+```text
 +------------------------------------+      +---------------------------+
 |          DESKTOP (>= 768px)        |      |       MOBILE (< 768px)    |
 +------------------------------------+      +---------------------------+
@@ -270,8 +284,6 @@ Saya selalu terbuka untuk diskusi teknis, peluang rekrutmen (*Full-time*, *Contr
 
 ---
 
-<div align="center">
+<p align="center">
   <sub>Dibangun dengan dedikasi rekayasa perangkat lunak oleh <b>M. Ilham Wahyudi</b>. © 2026 Hak Cipta Dilindungi.</sub>
-</div>
-#   I l h a m W a h y u d i  
- 
+</p>
