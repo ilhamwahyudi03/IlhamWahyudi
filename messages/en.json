@@ -1,0 +1,63 @@
+{
+  "Navigation": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "Hello, I'm",
+    "name": "M. Ilham Wahyudi",
+    "title": "Fullstack Web Developer & Data Specialist",
+    "valueProp": "Building end-to-end web applications from interface design to structured backends, while turning complex datasets into predictive models and analytics.",
+    "ctaDownloadCv": "Download CV",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me",
+    "availableForHire": "Open for Full-Time Roles & Collaborations",
+    "scrollLabel": "SCROLL"
+  },
+  "About": {
+    "sectionTag": "01 // About Me",
+    "title": "Background & Engineering Workflow",
+    "backgroundTitle": "Education & Industry Experience",
+    "backgroundText": "Information Technology graduate from Universitas 'Aisyiyah Yogyakarta (GPA 3.51) with a published scientific journal from my undergraduate thesis on BBCA stock prediction using Long Short-Term Memory (LSTM). In industry, I completed an Excellent-rated Product Intern tenure at PT Aino Indonesia building an internal inventory dashboard, alongside leading entrepreneurship divisions at BEM FST and ITECH UNISA.",
+    "philosophyTitle": "Workflow & Engineering Standards",
+    "philosophyText": "I combine AI-assisted development workflows to accelerate prototyping without sacrificing architectural clarity. Every system starts with mapping user journeys in Figma, followed by structured relational database modeling and thorough Black-Box verification before release."
+  },
+  "Projects": {
+    "sectionTag": "02 // Work",
+    "title": "Selected Projects & Case Studies",
+    "subtitle": "Select any project card to inspect its architecture, tech stack, and test outcomes.",
+    "viewCaseStudy": "View Details",
+    "techLabel": "Technologies"
+  },
+  "Skills": {
+    "sectionTag": "03 // Capabilities",
+    "title": "Technical Skills & Tooling"
+  },
+  "Experience": {
+    "sectionTag": "04 // Trajectory",
+    "title": "Experience, Education & Achievements"
+  },
+  "Contact": {
+    "sectionTag": "05 // Connect",
+    "title": "Project Inquiries & Opportunities",
+    "subtitle": "For recruitment, web engineering collaborations, or data analytics projects, reach me directly through the channels below.",
+    "ctaSayHello": "Send Message",
+    "ctaLinkedIn": "LinkedIn",
+    "ctaGitHub": "GitHub"
+  },
+  "Chatbot": {
+    "triggerLabel": "Portfolio Assistant",
+    "triggerSub": "Ask about CV",
+    "inputPlaceholder": "Ask about experience, projects, or stack...",
+    "sendLabel": "Send",
+    "closeLabel": "Close",
+    "initialMessage": "Hi! I'm the AI assistant for M. Ilham Wahyudi's portfolio. Ask me about his projects, internship at PT Aino Indonesia, or technical stack."
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Built with"
+  }
+}

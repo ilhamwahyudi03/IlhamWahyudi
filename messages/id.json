@@ -1,0 +1,63 @@
+{
+  "Navigation": {
+    "about": "Tentang",
+    "projects": "Proyek",
+    "skills": "Keahlian",
+    "experience": "Pengalaman",
+    "contact": "Kontak"
+  },
+  "Hero": {
+    "greeting": "Halo, saya",
+    "name": "M. Ilham Wahyudi",
+    "title": "Fullstack Web Developer & Data Specialist",
+    "valueProp": "Membangun aplikasi web end-to-end dari rancangan antarmuka hingga backend terstruktur, serta mengolah dataset menjadi model prediktif dan analitik.",
+    "ctaDownloadCv": "Unduh CV",
+    "ctaProjects": "Lihat Proyek",
+    "ctaContact": "Hubungi Saya",
+    "availableForHire": "Terbuka untuk Peluang Kerja & Kolaborasi",
+    "scrollLabel": "GULIR"
+  },
+  "About": {
+    "sectionTag": "01 // Tentang Saya",
+    "title": "Latar Belakang & Cara Kerja",
+    "backgroundTitle": "Pendidikan & Pengalaman Industri",
+    "backgroundText": "Lulusan S1 Teknologi Informasi Universitas 'Aisyiyah Yogyakarta (IPK 3.51) dengan publikasi jurnal ilmiah dari riset tugas akhir prediksi saham BBCA berbasis model Long Short-Term Memory (LSTM). Di industri, saya menyelesaikan magang Product Intern berpredikat Excellent di PT Aino Indonesia dengan merancang dashboard inventaris internal, serta aktif memimpin divisi kewirausahaan di BEM FST dan ITECH UNISA.",
+    "philosophyTitle": "Alur & Standar Pengerjaan",
+    "philosophyText": "Saya memadukan alur kerja pengembangan berbantuan AI untuk mempercepat prototyping tanpa mengorbankan kerapian arsitektur. Setiap sistem dimulai dari pemetaan kebutuhan pengguna di Figma, dilanjutkan dengan perancangan skema basis data yang terstruktur, hingga verifikasi fitur melalui Black-Box testing sebelum dirilis."
+  },
+  "Projects": {
+    "sectionTag": "02 // Karya",
+    "title": "Proyek Pilihan & Studi Kasus",
+    "subtitle": "Pilih kartu proyek untuk melihat rincian arsitektur, teknologi, dan hasil pengujiannya.",
+    "viewCaseStudy": "Lihat Detail",
+    "techLabel": "Teknologi"
+  },
+  "Skills": {
+    "sectionTag": "03 // Kemampuan",
+    "title": "Keahlian Teknis & Tooling"
+  },
+  "Experience": {
+    "sectionTag": "04 // Perjalanan",
+    "title": "Pengalaman, Pendidikan & Prestasi"
+  },
+  "Contact": {
+    "sectionTag": "05 // Terhubung",
+    "title": "Diskusi Proyek & Peluang Kerja",
+    "subtitle": "Untuk keperluan rekrutmen, kolaborasi pengembangan web, atau proyek data, hubungi saya melalui salah satu kanal di bawah ini.",
+    "ctaSayHello": "Kirim Pesan",
+    "ctaLinkedIn": "LinkedIn",
+    "ctaGitHub": "GitHub"
+  },
+  "Chatbot": {
+    "triggerLabel": "Asisten Portofolio",
+    "triggerSub": "Tanya seputar CV",
+    "inputPlaceholder": "Tanya pengalaman, proyek, atau tech stack...",
+    "sendLabel": "Kirim",
+    "closeLabel": "Tutup",
+    "initialMessage": "Halo! Saya asisten AI untuk portofolio M. Ilham Wahyudi. Silakan tanya seputar proyek, pengalaman magang di PT Aino Indonesia, atau tech stack yang dikuasai."
+  },
+  "Footer": {
+    "rights": "Hak cipta dilindungi.",
+    "madeWith": "Dibangun dengan"
+  }
+}
