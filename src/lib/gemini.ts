@@ -1,8 +1,10 @@
 import { GoogleGenAI } from '@google/genai';
 
-export const genAI = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY || '',
-});
+/** Creates a Gemini client only at request time to avoid empty-key warnings during static builds. */
+export function createGeminiClient(apiKey = process.env.GEMINI_API_KEY?.trim()) {
+  if (!apiKey) return null;
+  return new GoogleGenAI({ apiKey });
+}
 
 export const CV_CONTEXT = `
 Kamu adalah asisten AI personal untuk M. Ilham Wahyudi, seorang Fullstack Web Developer, UI/UX Designer, dan Data Analyst.

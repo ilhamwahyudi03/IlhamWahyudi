@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenAI } from "@google/genai";
-import { CV_CONTEXT } from "@/lib/gemini";
+import { CV_CONTEXT, createGeminiClient } from "@/lib/gemini";
 
 // Helper for offline intelligent CV assistant fallback
 function generateLocalCVResponse(userMsg: string): string {
@@ -141,7 +140,9 @@ export async function POST(req: NextRequest) {
     const isMockKey =
       !apiKey ||
       apiKey === "your_gemini_api_key_here" ||
-      apiKey.startsWith("your_");
+      apiKey === "your-gemini-api-key-here" ||
+      apiKey.startsWith("your_") ||
+      apiKey.startsWith("your-");
 
     // If no valid external key is yet configured, respond instantly with local CV knowledge base!
     if (isMockKey) {
@@ -154,10 +155,18 @@ export async function POST(req: NextRequest) {
 
     // Attempt calling real Gemini API
     try {
-      const genAI = new GoogleGenAI({ apiKey });
+      const genAI = createGeminiClient(apiKey);
+      if (!genAI) {
+        return NextResponse.json({
+          reply: generateLocalCVResponse(message),
+          isLocal: true,
+        });
+      }
 
-      const chatHistory = (history as { role: string; content: string }[])
+      const safeHistory = Array.isArray(history) ? history : [];
+      const chatHistory = (safeHistory as { role: string; content: string }[])
         .slice(0, -1)
+        .filter((msg) => msg && typeof msg.content === "string")
         .map((msg) => ({
           role: msg.role === "user" ? "user" : "model",
           parts: [{ text: msg.content }],
